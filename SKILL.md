@@ -1,6 +1,6 @@
 ---
 name: slay-linkedin-posts
-description: Write viral-style LinkedIn posts using Lara Acosta's SLAY framework (Story, Lesson, Actionable advice, You) with her hook → re-hook → lead structure and signature formatting. Use this skill whenever the user wants to write, draft, rewrite, or improve a LinkedIn post — even if they just say "help me post about X on LinkedIn," "make this go viral," "turn this into a LinkedIn post," or share a story, win, failure, or lesson they want to share publicly. Also use it when the user asks for LinkedIn hooks, personal branding content, or wants their post to "sound like Lara Acosta."
+description: Write viral-style LinkedIn posts using Lara Acosta's SLAY framework (Story, Lesson, Actionable advice, You) with her hook → re-hook → lead structure and signature formatting, plus her full growth strategy (4-3-2-1 cadence, comment-first cold start, lead magnet funnel). Use this skill whenever the user wants to write, draft, rewrite, or improve a LinkedIn post — even if they just say "help me post about X on LinkedIn," "make this go viral," "turn this into a LinkedIn post," or share a story, win, failure, or lesson they want to share publicly. Also use it when the user asks for LinkedIn hooks, personal branding content, how to grow their LinkedIn following, a LinkedIn posting schedule or content plan, or wants to "grow like Lara Acosta."
 ---
 
 # SLAY LinkedIn Posts
@@ -59,6 +59,14 @@ In chat: deliver the post in a code block (so it copies clean with line breaks i
 
 If saving to a file: the file must contain ONLY the final post text, exactly as it would be pasted into LinkedIn — no markdown headers, no code fences, no alternates, no notes. Put alternates and commentary in your chat response instead. The user will copy or upload this file directly, so anything extra would end up in their post.
 
+## Picking a post angle
+
+When the user has material but no angle ("what should I post today?"), or when drafting multiple posts in a batch, read `references/template-patterns.md` — a library of 30 post archetypes (transformation, contrarian, teaching, self-disclosure) with guidance on matching each to the material the user actually has.
+
+## Growth strategy (beyond single posts)
+
+When the user asks about growing their LinkedIn overall — posting cadence, content plans, engagement tactics, lead magnets, or follower growth — read `references/growth-strategy.md`. It covers Lara's 4-3-2-1 content engine, the comment-first cold start, authority engagement, comment-optimized distribution, proof stacking, and funnel mechanics.
+
 ## What this skill is NOT for
 
-Comment strategy, content calendars, lead magnets, or LinkedIn ads. If the user asks for a full content strategy, write the post they need now and note the strategy piece is out of scope.
+Comment-writing services, LinkedIn ads, or non-LinkedIn platforms. For X/Twitter adaptations, write the LinkedIn version first, then compress.
