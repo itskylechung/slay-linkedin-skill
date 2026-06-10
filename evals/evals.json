@@ -1,0 +1,26 @@
+{
+  "skill_name": "slay-linkedin-posts",
+  "evals": [
+    {
+      "id": 0,
+      "name": "story-provided-freelance-milestone",
+      "prompt": "I want to post on LinkedIn about how I quit my agency job 14 months ago to freelance, almost gave up after 3 months when I only had 1 client, and just hit $10k/month. Make it engaging. Save the final post as post.md",
+      "expected_output": "A SLAY-structured post: hook + re-hook, compressed story with the concrete numbers given, single lesson, actionable steps, reader turn at the end, one-sentence-per-line formatting",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "topic-only-no-story",
+      "prompt": "write me a linkedin post about why cold DMs dont work anymore and what to do instead. Save it as post.md",
+      "expected_output": "Post built on an observation/pattern opening (no fabricated personal story), still follows hook/re-hook/lead structure, actionable alternatives, ends with reader question",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "rewrite-corporate-draft",
+      "prompt": "Can you rewrite this LinkedIn post so it actually gets engagement? Here's my draft: 'I am pleased to announce that after extensive research and development, our team has successfully launched our new client onboarding process. This initiative has reduced onboarding time by 40% and significantly improved client satisfaction metrics. I am grateful to my team for their dedication.' Save the rewrite as post.md",
+      "expected_output": "Corporate speak stripped, rewritten with hook/re-hook using the 40% stat, short lines, lesson + actionable element, ends turning to the reader",
+      "files": []
+    }
+  ]
+}
