@@ -1,11 +1,15 @@
 ---
 name: slay-linkedin-posts
-description: Write viral-style LinkedIn posts using Lara Acosta's SLAY framework (Story, Lesson, Actionable advice, You) with her hook → re-hook → lead structure and signature formatting. Use this skill whenever the user wants to write, draft, rewrite, or improve a LinkedIn post — even if they just say "help me post about X on LinkedIn," "make this go viral," "turn this into a LinkedIn post," or share a story, win, failure, or lesson they want to share publicly. Also use it when the user asks for LinkedIn hooks, personal branding content, or wants their post to "sound like Lara Acosta."
+description: Write viral-style LinkedIn posts using Lara Acosta's SLAY framework (Story, Lesson, Actionable advice, You) with her hook → re-hook → lead structure and signature formatting, plus her full growth strategy (4-3-2-1 cadence, comment-first cold start, lead magnet funnel). Use this skill whenever the user wants to write, draft, rewrite, or improve a LinkedIn post — even if they just say "help me post about X on LinkedIn," "make this go viral," "turn this into a LinkedIn post," or share a story, win, failure, or lesson they want to share publicly. Also use it when the user asks for LinkedIn hooks, personal branding content, how to grow their LinkedIn following, a LinkedIn posting schedule or content plan, or wants to "grow like Lara Acosta."
 ---
 
 # SLAY LinkedIn Posts
 
 Write LinkedIn posts the way Lara Acosta does — the creator who grew from 0 to 250K+ followers in under two years. Her insight: even basic advice feels original when wrapped in a personal story nobody else can tell. The story is the moat. Everything else in this skill exists to support that.
+
+## Step 0: Load Kyle's voice
+
+Before drafting anything, read `references/voice-tone-guide.md`. It's Kyle's personal voice and tone spec — direct & confident, casual-professional, story-first, real stories only, plus a "never do" list (no corporate jargon, no hedge openers, no hashtag walls, no rage-bait). Its LinkedIn playbook is this skill's SLAY structure with Kyle's voice already layered on, so Steps 1-4 below already comply — use the guide to resolve any word-choice or tone judgment call, not to reinvent the structure. For X/Twitter posts, use Part 3 of the guide (hook → hard line → conviction) instead of the LinkedIn steps below.
 
 ## Step 1: Get a real story first
 
@@ -59,6 +63,20 @@ In chat: deliver the post in a code block (so it copies clean with line breaks i
 
 If saving to a file: the file must contain ONLY the final post text, exactly as it would be pasted into LinkedIn — no markdown headers, no code fences, no alternates, no notes. Put alternates and commentary in your chat response instead. The user will copy or upload this file directly, so anything extra would end up in their post.
 
+## Picking a post angle
+
+When the user has material but no angle ("what should I post today?"), or when drafting multiple posts in a batch, read `references/template-patterns.md` — a library of 30 post archetypes (transformation, contrarian, teaching, self-disclosure) with guidance on matching each to the material the user actually has.
+
+## No material yet? Borrow a hook
+
+When the user has no story and no angle, read `references/content-swipe-file.md`
+— top-performing Instagram reels by account, grouped by hook pattern. Use it
+for inspiration only; never present someone else's story as the user's own.
+
+## Growth strategy (beyond single posts)
+
+When the user asks about growing their LinkedIn overall — posting cadence, content plans, engagement tactics, lead magnets, or follower growth — read `references/growth-strategy.md`. It covers Lara's 4-3-2-1 content engine, the comment-first cold start, authority engagement, comment-optimized distribution, proof stacking, and funnel mechanics.
+
 ## What this skill is NOT for
 
-Comment strategy, content calendars, lead magnets, or LinkedIn ads. If the user asks for a full content strategy, write the post they need now and note the strategy piece is out of scope.
+Comment-writing services or LinkedIn ads. For X/Twitter posts, use Part 3 of `references/voice-tone-guide.md` (hook → hard line → conviction) — write the LinkedIn version first, then compress: keep the hook and hardest line, drop the story arc, sharpen the stance.

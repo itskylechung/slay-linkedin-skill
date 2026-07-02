@@ -21,6 +21,20 @@
       "prompt": "Can you rewrite this LinkedIn post so it actually gets engagement? Here's my draft: 'I am pleased to announce that after extensive research and development, our team has successfully launched our new client onboarding process. This initiative has reduced onboarding time by 40% and significantly improved client satisfaction metrics. I am grateful to my team for their dedication.' Save the rewrite as post.md",
       "expected_output": "Corporate speak stripped, rewritten with hook/re-hook using the 40% stat, short lines, lesson + actionable element, ends turning to the reader",
       "files": []
+    },
+    {
+      "id": 3,
+      "name": "no-angle-pick-pattern",
+      "prompt": "I'm a freelance UX designer. I have nothing specific to share but I need to post on LinkedIn today. What should I post? Write it and save as post.md",
+      "expected_output": "Consults references/template-patterns.md to pick an archetype matching what the user has (likely a teaching or contrarian pattern given no story), asks for real specifics before filling the skeleton, full SLAY treatment applied",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "growth-strategy-question",
+      "prompt": "I have 300 followers on LinkedIn and post randomly. How do I actually grow like Lara Acosta? Give me a weekly plan.",
+      "expected_output": "Consults references/growth-strategy.md: recommends comment-first cold start for sub-1K accounts, lays out 4-3-2-1 cadence with posts slotted into pillars and audiences, mentions lead magnet funnel and 3-month commitment floor",
+      "files": []
     }
   ]
 }

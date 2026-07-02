@@ -11,6 +11,8 @@ Claude uses this skill whenever you want to write, draft, rewrite, or improve a 
 - "Make this go viral"
 - "Write a LinkedIn hook about [topic]"
 - "Make it sound like Lara Acosta"
+- "What should I post today?"
+- "How do I grow my LinkedIn following?"
 
 It will interview you for a real story, structure the post with the SLAY skeleton, apply LinkedIn-specific formatting, and pressure-test the draft before handing it back.
 
@@ -25,16 +27,20 @@ You get the finished post in a clean code block plus 2-3 alternate hook/re-hook 
 
 ## What it's NOT for
 
-Comment strategy, content calendars, lead magnets, or LinkedIn ads. It writes individual posts — not full content strategies.
+Comment-writing services or LinkedIn ads. X/Twitter posts are in scope — Claude applies Kyle's voice guide and compresses the LinkedIn draft. Growth strategy, content planning, and post-angle picking are also in scope via the reference files below.
 
 ## Repository structure
 
 ```
-SKILL.md              # The skill definition and instructions
+SKILL.md                      # The skill definition and instructions
 references/
-  structure.md        # Full post anatomy with examples
+  voice-tone-guide.md         # Kyle's personal voice/tone spec, applied to every post (LinkedIn + X)
+  structure.md                # Full post anatomy with examples
+  template-patterns.md        # 30 post archetypes from Lara's "30 Days of Templates"
+  growth-strategy.md          # 4-3-2-1 content engine, cold start, funnel mechanics
+  content-swipe-file.md       # Top Instagram reels by account, for hook/angle inspiration
 evals/
-  evals.json          # Evaluation cases
+  evals.json                  # Evaluation cases
 ```
 
 ## Installation
