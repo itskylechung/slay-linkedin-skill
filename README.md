@@ -27,16 +27,18 @@ You get the finished post in a clean code block plus 2-3 alternate hook/re-hook 
 
 ## What it's NOT for
 
-Comment-writing services, LinkedIn ads, or non-LinkedIn platforms. Growth strategy, content planning, and post-angle picking are in scope via the reference files below.
+Comment-writing services or LinkedIn ads. X/Twitter posts are in scope — Claude applies Kyle's voice guide and compresses the LinkedIn draft. Growth strategy, content planning, and post-angle picking are also in scope via the reference files below.
 
 ## Repository structure
 
 ```
 SKILL.md                      # The skill definition and instructions
 references/
+  voice-tone-guide.md         # Kyle's personal voice/tone spec, applied to every post (LinkedIn + X)
   structure.md                # Full post anatomy with examples
   template-patterns.md        # 30 post archetypes from Lara's "30 Days of Templates"
   growth-strategy.md          # 4-3-2-1 content engine, cold start, funnel mechanics
+  content-swipe-file.md       # Top Instagram reels by account, for hook/angle inspiration
 evals/
   evals.json                  # Evaluation cases
 ```
